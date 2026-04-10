@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #efa0cc, #f4d5e4); /* pink gradient */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  background: url('https://via.placeholder.com/120') center/cover;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  border: 4px solid #ea0f71;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ea0f71;
+}
+
+.tagline {
+  font-style: italic;
+  color: #555;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  background: #ea0f71;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd1dc;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ea0f71;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  background: #fff;
+  border: 2px solid #ea0f71;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+  background: #ea0f71;
+  color: #fff;
+}
+
+/* Projects */
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact */
+#contact p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.social-text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #ea0f71;   /* theme color */
+  font-size: 2rem;  /* icon size */
+  margin: 0 15px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+  color: #333;
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #ea0f71;
+  color: #fff;
+}
